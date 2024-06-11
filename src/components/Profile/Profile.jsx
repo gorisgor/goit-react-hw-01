@@ -1,9 +1,9 @@
-export default function ({userData: {name, tag, location, image, stats:{followers, views, likes}}}){
+export default function ({name, tag, location, avatar, stats}){
     return(
         <div>
           <div>
             <img
-              src={image}
+              src={avatar}
               alt="User avatar"
             />
             <p>{name}</p>
@@ -14,15 +14,15 @@ export default function ({userData: {name, tag, location, image, stats:{follower
           <ul>
             <li>
               <span>Followers</span>
-              <span>{followers}</span>
+              <span>{stats.followers}</span>
             </li>
             <li>
               <span>Views</span>
-              <span>{views}</span>
+              <span>{stats.views}</span>
             </li>
             <li>
               <span>Likes</span>
-              <span>{likes}</span>
+              <span>{stats.likes}</span>
             </li>
           </ul>
         </div>
