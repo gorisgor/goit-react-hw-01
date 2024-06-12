@@ -1,4 +1,60 @@
 .profileCard {
-  width: 800px;
-  height: 900px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid black; 
 }
+
+.profileImage {
+  border-radius: 5%;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto;
+}
+
+.profileName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.profileTag, .profileLocation {
+  font-size: 14px;
+  color: #666666;
+  margin: 5px 0;
+}
+
+.profileStats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  border-top: 1px solid #cccccc;
+}
+
+.profileStatItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 10px 0;
+  border-left: 1px solid #cccccc;
+}
+
+.profileStatItem:first-child {
+  border-left: none; 
+}
+
+.profileStatLabel {
+  font-size: 12px;
+  color: #999999;
+}
+
+.profileStatValue {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+
