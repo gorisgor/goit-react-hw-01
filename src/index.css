@@ -1,8 +1,18 @@
 body {
-  font-family: sans-serif;
-  line-height: 1.5;
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #fff;
 }
-
+a,
+ul {
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+li {
+  list-style-type: none;
+}
 h1,
 h2,
 h3,
@@ -10,15 +20,9 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-
 img {
   display: block;
   max-width: 100%;
