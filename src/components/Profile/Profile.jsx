@@ -2,6 +2,7 @@ import React from 'react';
 import css from './Profile.module.css';
 
 export default function Profile({ name, tag, location, avatar, stats }) {
+  console.log('Avatar URL:', avatar)
   return (
     <div className={css.profileCard}>
       <div>
